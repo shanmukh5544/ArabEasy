@@ -1,0 +1,48 @@
+.card {
+  &__title{
+    font-size: 20px;
+    color: #f2f2f2;
+    margin-bottom: 20px;
+  }
+  &__wrapper{
+    background: rgba($color: #f1f7f9, $alpha: .25);
+border: 1px solid #707070;
+border-radius: 10px;
+padding: 10px;
+@media (min-width:992px){
+  background: rgba($color: #091526, $alpha: .75);
+  padding: 20px;
+  border-color: transparent;
+}
+  }
+  &__imgwrap {
+    max-width: 238px;
+    border-radius: 10px;
+    position: relative;
+    @media(max-width:992px){
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+    &-edit{
+      padding: 8px;
+      background-color: #3cc3f2;
+      border-radius: 5px;
+      position: absolute;
+      bottom: 0;
+      right: -5%;
+    }
+
+
+  }
+  &__btngroup{
+    .btn{
+      min-width: 128px;
+      &+.btn{
+        @media (min-width:1400px){
+          margin-top: 16px;
+        }
+      
+      }
+    }
+  }
+}

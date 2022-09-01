@@ -1,0 +1,90 @@
+.tabbing {
+  //  background: transparent linear-gradient(90deg, #112949 0%, #000000 100%, #0E233F 100%);
+      // position: relative;
+      @media (max-width:992px){
+        position: relative;
+      }
+    &__title{
+      font-size: 24px;
+      color: #f1f7f9;
+      font-weight: normal;
+      box-shadow: 0px 1px 6px #00000029;
+      width: 100%;
+      background: transparent linear-gradient(90deg, #0F2644 0%, #102746 100%) ;
+
+    }
+    &__btnacc{
+      margin-bottom: 10px;
+      padding: 16px;
+      text-align: left;
+    }
+  &>*{
+    padding: 16px;
+  }
+  @media(min-width:992px) {
+    &__wrapper {
+      flex-basis: 75%;
+    }
+    &__btngroup {
+      flex-basis: 25%;
+      box-shadow: 3px 0px 4px 0px #11111140;
+      opacity: 1 !important;
+        pointer-events: auto !important;
+        
+    }
+    
+  }
+
+
+  &>*+* {
+    // margin-left: 16px;
+    @media(min-width:992px){
+      margin-left: 16px;
+    }
+  }
+
+
+  &__btn {
+    background-color: rgba($color: #f1f7f9, $alpha: 0.11);
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.4px solid #cfcfcf;
+    color: #f1f7f9;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    &:hover, &:focus{
+      background-color: rgba($color: #f1f7f9, $alpha: 0.5);
+    }
+
+    &.active {
+      background-color: rgba($color: #091526, $alpha: 0.75);
+      border-color: transparent;
+
+
+    }
+  }
+  &.active {
+    & .tabbing__wrapper{
+      pointer-events: auto;
+      &>*{
+        padding-bottom: 80px;
+      }
+    }
+    .tabbing__btngroup, .tabbing__info{
+      opacity: 0;
+      pointer-events: none;
+    }
+  }
+  &__wrapper {
+    position: absolute;
+      padding-bottom: 60px;
+      inset: 0;
+      pointer-events: none;
+    @media (min-width:992px){
+      position: relative;
+      padding-bottom: 0;
+    }
+    
+  }
+}

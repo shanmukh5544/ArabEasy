@@ -1,0 +1,42 @@
+.sidebar{
+    // display: none;
+    background: transparent linear-gradient(180deg, #112949 0%, #000000 100%, #0E233F 100%);
+    position: fixed;
+  
+    left: 0;
+    right: 0;
+    bottom: 0;
+    // height: 50px;
+    z-index: 1;
+
+    padding-block: 4px;
+    @media (min-width:992px){
+        // height: unset;
+        max-width: 72px;
+        top: 0;
+        
+        
+    }
+    &__links{
+        
+        display: flex;
+    justify-content: space-between;
+    @media (min-width:992px){
+        height: calc(100% - 55px);
+        padding-top: 16px;
+        // top: 0;
+        // max-width: 72px;
+        flex-direction: column;
+       
+    }
+        &-btn{
+            padding: 0px;
+            max-width: 40px;
+           @media (min-width:992px){
+            max-width: unset;
+           }
+           
+        }
+    }
+}
+

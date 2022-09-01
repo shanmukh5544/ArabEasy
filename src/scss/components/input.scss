@@ -1,0 +1,19 @@
+.form{
+  &__light{
+    background-color: #112949 !important;
+    border: 0.5px solid #e2e2e2;
+    color: #f1f7f9 !important;
+    &-label{
+      color: #9cbdeb;
+      margin-bottom: 10px;
+    }
+  }
+  &__selectgroup{
+    select{
+      width: fit-content;
+      margin-right: 4px;
+    }
+    
+
+  }
+}

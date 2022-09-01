@@ -1,0 +1,20 @@
+.btn{
+  
+  &__white{
+    
+    background-color: #f1f7f9;
+    color: #3cc3f2;
+    &:hover,:focus{
+      background-color: #f1f7f9;
+      color: #3cc3f2;
+    }
+  }
+  &__blue{
+    background-color: #3cc3f2;
+    color: #f1f7f9;
+    &:hover,:focus{
+      background-color: #3cc3f2;
+      color: #f1f7f9;
+    }
+  }
+}
