@@ -16,8 +16,6 @@ export default function Landing(){
    <Header/>
    <Tabs  options={objselect} />
    </div>
-    
-    
     </>
   )
 }

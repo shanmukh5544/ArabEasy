@@ -1,8 +1,5 @@
 import Button from "../Button/Button"
 
-
-
-
 export default function SideBar() {
   return (
     <aside className="sidebar">
@@ -14,10 +11,10 @@ export default function SideBar() {
         </div>
         <div className="sidebar__links">
           <Button className="sidebar__links-btn">
-            <img src="images/assignment.svg"></img>
+            <img src="images/assignment.svg" alt="assigment"></img>
           </Button>
           <Button className="sidebar__links-btn">
-            <img className="m-auto" src="images/message.svg"></img>
+            <img className="m-auto" src="images/message.svg" alt="messages"></img>
           </Button>
         </div>
       </div>
