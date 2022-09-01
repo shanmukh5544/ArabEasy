@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ArabEasy/static/css/main.490bbb6d.css",
+    "main.js": "/ArabEasy/static/js/main.6ce3001b.js",
+    "static/media/background.png": "/ArabEasy/static/media/background.a91c3eda26d54efb94b7.png",
+    "index.html": "/ArabEasy/index.html",
+    "main.490bbb6d.css.map": "/ArabEasy/static/css/main.490bbb6d.css.map",
+    "main.6ce3001b.js.map": "/ArabEasy/static/js/main.6ce3001b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.490bbb6d.css",
+    "static/js/main.6ce3001b.js"
+  ]
+}
